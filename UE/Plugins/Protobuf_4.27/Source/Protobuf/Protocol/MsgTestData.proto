@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message MsgTestData {
+  uint32 index = 1;
+  float value = 2;
+  string name = 3;
+}
