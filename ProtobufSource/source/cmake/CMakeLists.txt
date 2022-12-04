@@ -100,6 +100,7 @@ if(protobuf_VERBOSE)
 endif()
 
 add_definitions(-DGOOGLE_PROTOBUF_CMAKE_BUILD)
+add_definitions(-DGOOGLE_PROTOBUF_NO_RTTI=1)
 
 find_package(Threads REQUIRED)
 if (CMAKE_USE_PTHREADS_INIT)

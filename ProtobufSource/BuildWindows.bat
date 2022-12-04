@@ -1,7 +1,7 @@
 @echo off
 
 rem Environment setting
-set VC="%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat"
+set VC="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 
 rem Clean old build
 rmdir /S /Q lib\Windows
